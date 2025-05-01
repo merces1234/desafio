@@ -1,0 +1,164 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin-left: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caixa-links {
+    margin: 44px 0 144px 76px;
+}
+
+.menu-principal {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #17233D;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.button-principal {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    background: #6FBF44;
+    border: none;
+    color: white;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+.img-congratilentin {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+    margin-left: 70px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 15px;
+    letter-spacing: 0.6px;
+    color: #161A49;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 15px;
+    letter-spacing: 0.6px;
+    color: #161A49;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #515151;
+    width: 515px;
+    margin-top: 33px;
+    margin-bottom: 65px;
+}
+
+.link-learn {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 10px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .img-congratilentin {
+        width: 312px;
+        height: 288px;
+        margin-left: 50px;
+
+    }
+
+    head {
+        max-width: 0;
+        width: 0;
+        height: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    div {
+        width: 100%;
+        height: 50%;
+        margin-left: 0;
+
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5;
+        width: 300px;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .link-learn {
+        font-size: 18px;
+        line-height: 100%;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-principal {
+        display: none;
+    }
+
+    .caixa-links {
+        text-align: right;
+        margin: 50px;
+        margin-left: 3px;
+
+    }
+
+   .button-principal {
+    width: 91px;
+    height: 31px;
+   }
+}    
